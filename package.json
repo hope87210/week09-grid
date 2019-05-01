@@ -1,0 +1,21 @@
+{
+  "name": "w9",
+  "version": "1.0.0",
+  "description": "w9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "watch": "webpack --watch --mode development",
+    "start": "npm run clean && webpack --mode development",
+    "build": "npm run clean && webpack --mode development",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "normalize.css": "^8.0.1"
+  }
+}
