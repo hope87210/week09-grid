@@ -2,7 +2,6 @@ import "normalize.css";
 import "babel-polyfill";
 import $ from "jquery";
 import '../css/style.css';
-import 'bootstrap-css-only';
 import gNews from './gNew';
 
 import { newsTemplate } from './templates';
